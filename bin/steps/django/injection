@@ -33,6 +33,5 @@ cat >>$SETTINGS_FILE <<EOF
 import dj_database_url
 
 DATABASES['default'] = dj_database_url.config()
-print DATABASES
 EOF
 
