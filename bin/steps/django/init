@@ -16,4 +16,4 @@ if [ ! "$DISABLE_INJECTION" ]; then
     source $BIN_DIR/steps/django/injection
 fi
 
-source $BIN_DIR/steps/django/collectstatic
+# source $BIN_DIR/steps/django/collectstatic
